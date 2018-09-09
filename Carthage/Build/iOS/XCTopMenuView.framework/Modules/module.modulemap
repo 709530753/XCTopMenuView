@@ -1,0 +1,11 @@
+framework module XCTopMenuView {
+  umbrella header "XCTopMenuView.h"
+
+  export *
+  module * { export * }
+}
+
+module XCTopMenuView.Swift {
+    header "XCTopMenuView-Swift.h"
+    requires objc
+}
